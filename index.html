@@ -6,30 +6,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zack Sargent - GLY 120</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 0 8px;
-        }
-
-        .cursive {
-            font-family: Brush Script MT, Brush Script Std, cursive;
-        }
-    </style>
-
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <h1>About the 2010 Hati Earthquake</h1>
+    <div id="title">
+        <h1>About the 2010 Hati Earthquake</h1>
+        <small>By Zack Sargent</small>
+    </div>
 
-    <p>The 2010 Hati Earthquake was an earthquake that happened in Hati in 2010.</p>
+    <aside>
+        <p>All times given are in Hati local time (EDT).</p>
+    </aside>
 
-    <iframe
-        src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1Udjliq-OPi6vJXPsmdXt6ltX5g0cDCc4OI8IidLBTCc&font=Default&lang=en&initial_zoom=2&height=650'
-        width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
-    </iframe>
+    <article>
+        <p>Imagine a scene:</p>
+        <blockquote>
+            <p>
+                You are sitting at home in your small, one-room apartment in Port-au-Prince, Haiti.
+            </p>
+            <p>
+                The sun is setting and the air is starting to cool.
+            </p>
+            <p>
+                You are making dinner for your family when you feel the
+                ground start to shake.
+            </p>
+            <p>
+                You look around in confusion as the shaking gets stronger and stronger. The walls of your home creak and
+                groan as the earthquake intensifies, and the pictures on the walls rattle and fall to the ground. You
+                grab your children and run outside, just as the walls of your apartment start to crumble. You huddle
+                together in the street, terrified, as the earthquake continues to rage. You remember hearing that Haiti
+                is located on a fault line and that earthquakes are relatively common, but you never expected one this
+                strong.
+            </p>
+            <p>
+                You are not alone. Millions of other Haitians are also experiencing the same thing. A magnitude 7.0
+                earthquake has struck the country with devastating force, killing thousands and leaving millions more
+                homeless. The damage is widespread and the recovery will be long and difficult. But even in the midst of
+                this tragedy, your people are resilient. They are helping each other to rebuild their lives and
+                their country, and manage the chaos of a natural disaster of this scale.
+            </p>
+        </blockquote>
+        <p>By the numbers, this earthquake is difficult to comprehend.</p>
+
+        <div id="stats">
+            <div class="count">
+                <span id="death-count" data-stop="230000" data-speed="20" data-amount="1000">
+                    0
+                </span>
+            </div>
+            <div class="label">
+                <strong>
+                    people killed
+                </strong>
+            </div>
+
+            <div class="count">
+                <span id="injured-count" data-stop="300000" data-speed="20" data-amount="1000">
+                    0
+                </span>
+            </div>
+            <div class="label">
+                <strong>
+                    people injured
+                </strong>
+            </div>
+
+            <div class="count">
+                <span id="displaced-count" data-stop="1500000" data-speed="20" data-amount="2000">
+                    0
+                </span>
+            </div>
+            <div class="label">
+                <strong>
+                    people displaced
+                </strong>
+            </div>
+
+            <div class="count">
+                $<span id="aid-count" data-stop="370" data-speed="50">
+                    0
+                </span> million
+            </div>
+            <div class="label">
+                <strong>
+                    spent in humanitiarian aid
+                </strong>
+            </div>
+        </div>
+        <p>Let's take a deeer look at how this disaster unfolded:</p>
+        <iframe
+            src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1Udjliq-OPi6vJXPsmdXt6ltX5g0cDCc4OI8IidLBTCc&font=Default&lang=en&initial_zoom=2&height=650'
+            width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
+        </iframe>
+        <script src="index.js"></script>
+    </article>
 </body>
 
 </html>

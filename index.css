@@ -1,0 +1,54 @@
+:root {
+    --orange: #F7D4BC;
+    --dark-orange: #f2b78e;
+    --orange-border: #c6aa96;
+    --text-on-orange: black;
+    --blue: #846b8a;
+    --max-width: 40em;
+    --border-radius: 1em;
+    --blue-background: #e7f0f9;
+    --blue-border: #6666CC;
+    --text: #212427;
+    --less-prominent-text: #3d4348;
+    --gray-background: #fcf2f2;
+    --gray-border: darkgray;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.cursive {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+aside {
+    background: var(--blue-background);
+    border-left: solid var(--blue-border);
+    line-height: 1px;
+    padding: 10px;
+}
+
+#title h1 {
+    margin-bottom: 0;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+#stats {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#stats .count {
+    font-size: 3.4em;
+}
+
+.label {
+    margin-bottom: 2.3em;
+}
