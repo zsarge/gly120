@@ -46,3 +46,22 @@ for (const label of [
 ]) {
   new CountUp(label, label);
 }
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+  for (var i = 0; i < reveals.length; i++) {
+    reveals[i].classList.add("active");
+  }
+}
+
+const observer = new IntersectionObserver(
+  (el) => {
+    if (el[0].isIntersecting) {
+      reveal();
+    }
+    console.log("FUNCTION RAN");
+  },
+  { threshold: [0] }
+);
+
+observer.observe(document.querySelector("#trigger"));

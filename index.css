@@ -14,6 +14,16 @@
     --gray-border: darkgray;
 }
 
+html {
+    overflow-x: hidden;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: sans-serif;
     max-width: 850px;
@@ -37,6 +47,7 @@ aside {
 }
 
 #title {
+    margin-top: 3em;
     margin-bottom: 20px;
 }
 
@@ -51,4 +62,23 @@ aside {
 
 .label {
     margin-bottom: 2.3em;
+}
+
+iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: -10px 6px 10px 1px #EFE3E3;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
