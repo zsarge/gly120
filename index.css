@@ -12,7 +12,7 @@
     --less-prominent-text: #3d4348;
     --gray-background: #fcf2f2;
     --gray-border: darkgray;
-    --iframe-height: 650px;
+    --iframe-height: 90vh;
 }
 
 html {
@@ -74,7 +74,7 @@ iframe {
 }
 
 .iframe-spacer {
-    height: calc(var(--iframe-height) + 10px);
+    height: var(--iframe-height);
 }
 
 
