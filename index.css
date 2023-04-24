@@ -65,7 +65,7 @@ aside {
     margin-bottom: 2.3em;
 }
 
-iframe {
+iframe.timeline {
     position: absolute;
     left: 0;
     right: 0;
@@ -88,4 +88,18 @@ iframe {
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+iframe.juxtapose {
+    width: 100%;
+    height: 600px;
+}
+
+.needs-top-margin {
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
