@@ -44,7 +44,7 @@ for (const label of [
   "#aid-count",
   "#displaced-count",
 ]) {
-  new CountUp(label, label);
+  new CountUp("#trigger", label);
 }
 
 function reveal() {
