@@ -43,6 +43,12 @@ aside {
     padding: 10px;
 }
 
+aside.red {
+    background: #e8aa89;
+    border-left: solid darkred;
+    line-height: 1.1em;
+}
+
 #title h1 {
     margin-bottom: 0;
 }
