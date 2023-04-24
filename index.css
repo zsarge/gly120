@@ -119,3 +119,19 @@ img {
 .quiz {
     border: dashed 1px black;
 }
+
+.reference {
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+    clear: both;
+    margin-bottom: 0.8em;
+}
+
+.references {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10em;
+}
+
+.references #title {
+    text-align: center;
+}
